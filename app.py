@@ -8,7 +8,7 @@ init_db()
 
 # Pagina-instellingen
 st.set_page_config(page_title="D'or Booking", layout="centered")
-st.title(f"📅 {st.secrets['COMPANY_NAME']}")
+st.title(f"📅 {st.secrets.get('COMPANY_NAME', 'D'or Booking System')}")
 st.caption("Boek je afspraak online – snel, eenvoudig en 24/7 beschikbaar")
 
 # Formulier voor nieuwe boeking
