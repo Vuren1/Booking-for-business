@@ -1,4 +1,0 @@
-streamlit
-pandas
-twilio
-python-dotenv
